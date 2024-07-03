@@ -1,0 +1,29 @@
+{
+    "name": "CodeArtist Tools",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "description": "码匠开发工具集",
+    "icons": {
+        "16": "icons/16.ico",
+        "32": "icons/32.ico",
+        "48": "icons/48.ico",
+        "128": "icons/128.ico"
+    },
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+    "action": {
+        "default_icon": {
+            "16": "icons/16.ico",
+            "32": "icons/32.ico",
+            "48": "icons/48.ico",
+            "128": "icons/128.ico"
+        },
+        "default_popup": "popup/popup.html"
+    },
+    "content_scripts": []
+}
